@@ -3,6 +3,7 @@ var rect = {
 	area: (x, y) => (x*y)
 };
 
+
 function solveRect(l,b) {
     console.log("Solving for rectangle with l = " + l + " and b = " + b);
 
@@ -10,6 +11,7 @@ function solveRect(l,b) {
         console.log("Rectangle dimensions should be greater than zero:  l = "
                + l + ",  and b = " + b);
     }
+    
     else {
 	    console.log("The area of the rectangle is " + rect.area(l,b));
 	    console.log("The perimeter of the rectangle is " + rect.perimeter(l,b));

@@ -16,6 +16,8 @@ function solveRect(l,b) {
     }
 }
 
+
+
 solveRect(2,4);
 solveRect(3,5);
 solveRect(0,5);
